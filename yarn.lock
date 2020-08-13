@@ -1153,6 +1153,11 @@ decode-uri-component@^0.2.0:
   resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
   integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
 
+dedent@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/dedent/-/dedent-0.7.0.tgz#2495ddbaf6eb874abb0e1be9df22d2e5a544326c"
+  integrity sha1-JJXduvbrh0q7Dhvp3yLS5aVEMmw=
+
 deep-is@~0.1.3:
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/deep-is/-/deep-is-0.1.3.tgz#b369d6fb5dbc13eecf524f91b070feedc357cf34"
@@ -2078,6 +2083,32 @@ jest-changed-files@^26.3.0:
   dependencies:
     "@jest/types" "^26.3.0"
     execa "^4.0.0"
+    throat "^5.0.0"
+
+jest-circus@^26.4.0:
+  version "26.4.0"
+  resolved "https://registry.yarnpkg.com/jest-circus/-/jest-circus-26.4.0.tgz#c3e7d442b82954e7c9a7485b11d39391fc4fa559"
+  integrity sha512-kSjqHtvN+U3MdtyrruDMf2rrTUMNzkw+LHkC7S/s/G22qDlgV3nWPFllchatwY9AfMgYkWrEXx7+ulhgH4n8fQ==
+  dependencies:
+    "@babel/traverse" "^7.1.0"
+    "@jest/environment" "^26.3.0"
+    "@jest/test-result" "^26.3.0"
+    "@jest/types" "^26.3.0"
+    "@types/node" "*"
+    chalk "^4.0.0"
+    co "^4.6.0"
+    dedent "^0.7.0"
+    expect "^26.4.0"
+    is-generator-fn "^2.0.0"
+    jest-each "^26.4.0"
+    jest-matcher-utils "^26.4.0"
+    jest-message-util "^26.3.0"
+    jest-runner "^26.4.0"
+    jest-runtime "^26.4.0"
+    jest-snapshot "^26.4.0"
+    jest-util "^26.3.0"
+    pretty-format "^26.4.0"
+    stack-utils "^2.0.2"
     throat "^5.0.0"
 
 jest-cli@^26.4.0:
