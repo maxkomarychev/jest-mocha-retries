@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test-jest": "yarn jest",
+    "test-mocha": "yarn mocha ./mocha/__tests__/first.js"
   },
   "author": "",
   "license": "ISC",
